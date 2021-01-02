@@ -113,10 +113,6 @@ public class MainActivity extends AppCompatActivity {
         editText = (EditText) findViewById(R.id.editText);
         city=  (TextView) findViewById(R.id.city);
 
-        DownLoadTask task = new DownLoadTask();
-        task.execute("https://api.openweathermap.org/data/2.5/weather?q="+"faridabad"+"&appid=b4d589ae5e2e7da2aa9016e6966acb04");
-        city.setText("Faridabad");
-
 
 
     }
